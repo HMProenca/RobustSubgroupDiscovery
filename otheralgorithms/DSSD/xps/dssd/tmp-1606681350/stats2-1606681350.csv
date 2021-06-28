@@ -1,0 +1,74 @@
+sg;quality;size;#conditions;description
+1;250.35863;213;2;Uniformity_of_Cell_Size > 1.00000 && Uniformity_of_Cell_Size > 3.00000
+2;244.60812;209;3;Mitoses < 10.00000 && Uniformity_of_Cell_Shape > 2.00000 && Bare_Nuclei > 2.00000
+3;243.69383;222;2;Uniformity_of_Cell_Size > 1.00000 && Uniformity_of_Cell_Shape > 3.00000
+4;241.98003;200;2;Uniformity_of_Cell_Size > 2.00000 && Bare_Nuclei > 3.00000
+5;240.57463;402;5;Marginal_Adhesion < 5.00000 && Bare_Nuclei < 3.00000 && Normal_Nucleoli < 10.00000 && Normal_Nucleoli < 8.00000 && ﻿Clump_Thickness < 8.00000
+6;240.53297;175;2;Uniformity_of_Cell_Size > 1.00000 && Uniformity_of_Cell_Size > 4.00000
+7;239.33916;400;5;Single_Epithelial_Cell_Size < 5.00000 && Bare_Nuclei < 3.00000 && Normal_Nucleoli < 7.50000 && ﻿Clump_Thickness < 9.50000 && ﻿Clump_Thickness < 7.50000
+8;238.72144;399;5;Single_Epithelial_Cell_Size < 5.00000 && Bare_Nuclei < 3.00000 && Bland_Chromatin < 7.00000 && Normal_Nucleoli < 9.00000 && ﻿Clump_Thickness < 10.00000
+9;238.32337;190;3;Uniformity_of_Cell_Shape > 1.00000 && Bare_Nuclei > 1.00000 && Bland_Chromatin > 3.00000
+10;237.42863;204;3;Uniformity_of_Cell_Shape > 1.00000 && Bland_Chromatin > 2.00000 && Bland_Chromatin > 3.00000
+11;237.06491;408;5;Uniformity_of_Cell_Size < 6.00000 && Marginal_Adhesion < 10.00000 && Bare_Nuclei < 3.00000 && Normal_Nucleoli < 7.00000 && ﻿Clump_Thickness < 9.00000
+12;236.10382;380;5;Mitoses < 10.00000 && Marginal_Adhesion < 4.00000 && Bare_Nuclei < 2.00000 && Normal_Nucleoli < 10.00000 && ﻿Clump_Thickness < 7.50000
+13;235.99393;203;4;Mitoses < 10.00000 && Mitoses < 8.00000 && Uniformity_of_Cell_Shape > 2.00000 && Bare_Nuclei > 2.00000
+14;235.73018;192;3;Uniformity_of_Cell_Size > 1.00000 && Bare_Nuclei > 1.00000 && Bare_Nuclei > 4.00000
+15;235.63300;394;5;Uniformity_of_Cell_Size < 6.00000 && Bare_Nuclei < 3.00000 && Normal_Nucleoli < 7.50000 && Normal_Nucleoli < 6.00000 && Normal_Nucleoli < 3.00000
+16;235.48250;379;5;Mitoses < 10.00000 && Uniformity_of_Cell_Size < 10.00000 && Uniformity_of_Cell_Size < 9.00000 && Single_Epithelial_Cell_Size < 3.50000 && Bare_Nuclei < 2.00000
+17;235.40251;188;3;Uniformity_of_Cell_Size > 1.00000 && Bare_Nuclei > 1.00000 && Bland_Chromatin > 3.00000
+18;235.40251;188;3;Uniformity_of_Cell_Shape > 1.00000 && Single_Epithelial_Cell_Size > 2.00000 && Bland_Chromatin > 3.00000
+19;235.04539;247;2;Uniformity_of_Cell_Shape > 1.00000 && Bare_Nuclei > 1.00000
+20;235.02264;244;2;Uniformity_of_Cell_Size > 1.00000 && Bare_Nuclei > 1.00000
+21;235.01536;393;5;Uniformity_of_Cell_Size < 6.00000 && Marginal_Adhesion < 10.00000 && Bare_Nuclei < 3.00000 && ﻿Clump_Thickness < 8.00000 && ﻿Clump_Thickness < 6.00000
+22;234.86117;378;5;Mitoses < 10.00000 && Mitoses < 8.00000 && Mitoses < 7.00000 && Single_Epithelial_Cell_Size < 4.00000 && Bare_Nuclei < 2.00000
+23;234.86117;378;5;Single_Epithelial_Cell_Size < 5.00000 && Marginal_Adhesion < 10.00000 && Bare_Nuclei < 3.00000 && Bare_Nuclei < 2.00000 && Bland_Chromatin < 7.00000
+24;234.74213;195;3;Uniformity_of_Cell_Shape > 1.00000 && Bare_Nuclei > 1.00000 && Bare_Nuclei > 4.00000
+25;234.74213;195;2;Bare_Nuclei > 2.00000 && ﻿Clump_Thickness > 4.00000
+26;234.60806;404;5;Mitoses < 10.00000 && Uniformity_of_Cell_Shape < 6.00000 && Bare_Nuclei < 3.00000 && Normal_Nucleoli < 8.00000 && ﻿Clump_Thickness < 8.00000
+27;234.60806;404;5;Uniformity_of_Cell_Size < 6.00000 && Uniformity_of_Cell_Size < 3.00000 && Single_Epithelial_Cell_Size < 6.00000 && Normal_Nucleoli < 6.00000 && ﻿Clump_Thickness < 8.00000
+28;234.60806;404;5;Uniformity_of_Cell_Size < 6.00000 && Uniformity_of_Cell_Size < 3.00000 && Bare_Nuclei < 10.00000 && Normal_Nucleoli < 6.00000 && ﻿Clump_Thickness < 8.00000
+29;234.23985;377;5;Uniformity_of_Cell_Shape < 10.00000 && Marginal_Adhesion < 4.00000 && Bare_Nuclei < 2.00000 && Bland_Chromatin < 6.00000 && ﻿Clump_Thickness < 7.50000
+30;233.99388;403;5;Uniformity_of_Cell_Size < 6.00000 && Marginal_Adhesion < 10.00000 && Bare_Nuclei < 3.00000 && Bland_Chromatin < 7.00000 && ﻿Clump_Thickness < 8.00000
+31;233.99388;403;5;Single_Epithelial_Cell_Size < 5.00000 && Marginal_Adhesion < 10.00000 && Bare_Nuclei < 3.00000 && Normal_Nucleoli < 7.50000 && ﻿Clump_Thickness < 9.50000
+32;233.66315;240;2;Uniformity_of_Cell_Shape > 1.00000 && Single_Epithelial_Cell_Size > 2.00000
+33;233.61852;376;4;Uniformity_of_Cell_Shape < 3.00000 && Bare_Nuclei < 10.00000 && Bare_Nuclei < 5.00000 && ﻿Clump_Thickness < 6.00000
+34;233.37976;402;5;Uniformity_of_Cell_Size < 6.00000 && Bare_Nuclei < 3.00000 && Normal_Nucleoli < 7.50000 && Normal_Nucleoli < 6.00000 && ﻿Clump_Thickness < 8.00000
+35;232.99719;375;5;Mitoses < 10.00000 && Mitoses < 8.00000 && Single_Epithelial_Cell_Size < 4.00000 && Bare_Nuclei < 2.00000 && Bland_Chromatin < 5.50000
+36;232.99719;375;5;Mitoses < 10.00000 && Mitoses < 8.00000 && Single_Epithelial_Cell_Size < 4.00000 && Bare_Nuclei < 2.00000 && Normal_Nucleoli < 4.50000
+37;232.99719;375;5;Uniformity_of_Cell_Shape < 10.00000 && Marginal_Adhesion < 4.00000 && Bare_Nuclei < 2.00000 && Normal_Nucleoli < 6.00000 && ﻿Clump_Thickness < 7.50000
+38;232.99719;375;5;Single_Epithelial_Cell_Size < 5.00000 && Bare_Nuclei < 3.00000 && Bare_Nuclei < 2.00000 && Bland_Chromatin < 7.00000 && Bland_Chromatin < 3.50000
+39;232.99719;375;5;Single_Epithelial_Cell_Size < 5.00000 && Bare_Nuclei < 3.00000 && Bare_Nuclei < 2.00000 && Bland_Chromatin < 7.00000 && Normal_Nucleoli < 4.50000
+40;232.48286;186;3;Uniformity_of_Cell_Size > 1.00000 && Single_Epithelial_Cell_Size > 2.00000 && Bland_Chromatin > 3.00000
+41;232.39772;214;3;Mitoses < 10.00000 && Uniformity_of_Cell_Shape > 2.00000 && Single_Epithelial_Cell_Size > 2.50000
+42;232.15159;400;5;Uniformity_of_Cell_Size < 6.00000 && Uniformity_of_Cell_Size < 3.00000 && Bland_Chromatin < 7.00000 && Bland_Chromatin < 5.00000 && ﻿Clump_Thickness < 6.50000
+43;232.15159;400;5;Single_Epithelial_Cell_Size < 5.00000 && Marginal_Adhesion < 10.00000 && Bare_Nuclei < 3.00000 && Bland_Chromatin < 7.00000 && Normal_Nucleoli < 9.00000
+44;232.15159;400;5;Single_Epithelial_Cell_Size < 5.00000 && Marginal_Adhesion < 10.00000 && Bare_Nuclei < 3.00000 && Bland_Chromatin < 7.00000 && ﻿Clump_Thickness < 9.50000
+45;231.75454;373;5;Mitoses < 10.00000 && Uniformity_of_Cell_Size < 10.00000 && Single_Epithelial_Cell_Size < 4.00000 && Bare_Nuclei < 2.00000 && Bland_Chromatin < 4.00000
+46;231.53749;399;5;Uniformity_of_Cell_Size < 6.00000 && Uniformity_of_Cell_Size < 3.00000 && Uniformity_of_Cell_Shape < 4.00000 && Normal_Nucleoli < 6.00000 && ﻿Clump_Thickness < 8.00000
+47;231.53749;399;5;Single_Epithelial_Cell_Size < 5.00000 && Bare_Nuclei < 3.00000 && Bland_Chromatin < 7.00000 && Bland_Chromatin < 5.50000 && Normal_Nucleoli < 10.00000
+48;231.53749;399;5;Single_Epithelial_Cell_Size < 5.00000 && Bare_Nuclei < 3.00000 && Bland_Chromatin < 7.00000 && Bland_Chromatin < 5.50000 && ﻿Clump_Thickness < 10.00000
+49;231.37126;189;2;Single_Epithelial_Cell_Size > 2.00000 && Bland_Chromatin > 3.00000
+50;231.30963;387;5;Mitoses < 10.00000 && Uniformity_of_Cell_Size < 5.00000 && Uniformity_of_Cell_Shape < 3.00000 && Bare_Nuclei < 10.00000 && Bare_Nuclei < 5.00000
+51;231.28627;226;2;Uniformity_of_Cell_Shape > 1.00000 && Uniformity_of_Cell_Shape > 3.00000
+52;231.13322;372;5;Uniformity_of_Cell_Shape < 3.00000 && Single_Epithelial_Cell_Size < 5.00000 && Bare_Nuclei < 10.00000 && Bare_Nuclei < 5.00000 && ﻿Clump_Thickness < 6.00000
+53;231.13322;372;5;Uniformity_of_Cell_Shape < 3.00000 && Bare_Nuclei < 10.00000 && Bare_Nuclei < 5.00000 && Bare_Nuclei < 4.00000 && ﻿Clump_Thickness < 6.00000
+54;231.13322;372;5;Uniformity_of_Cell_Shape < 3.00000 && Bare_Nuclei < 10.00000 && Bare_Nuclei < 5.00000 && Normal_Nucleoli < 6.00000 && ﻿Clump_Thickness < 6.00000
+55;231.02347;185;3;Uniformity_of_Cell_Size > 1.00000 && Marginal_Adhesion > 1.00000 && Bare_Nuclei > 3.00000
+56;230.99969;196;2;Uniformity_of_Cell_Size > 2.00000 && Bland_Chromatin > 3.00000
+57;230.92339;398;5;Uniformity_of_Cell_Size < 6.00000 && Uniformity_of_Cell_Size < 3.00000 && Single_Epithelial_Cell_Size < 6.00000 && Normal_Nucleoli < 6.00000 && Normal_Nucleoli < 3.00000
+58;230.60707;408;5;Uniformity_of_Cell_Size < 6.00000 && Single_Epithelial_Cell_Size < 10.00000 && Bare_Nuclei < 3.00000 && Normal_Nucleoli < 7.00000 && ﻿Clump_Thickness < 9.00000
+59;230.60707;408;5;Uniformity_of_Cell_Size < 6.00000 && Marginal_Adhesion < 10.00000 && Marginal_Adhesion < 9.50000 && Bare_Nuclei < 3.00000 && ﻿Clump_Thickness < 8.00000
+60;230.25922;199;3;Mitoses < 10.00000 && Uniformity_of_Cell_Size > 1.00000 && Uniformity_of_Cell_Size > 3.00000
+61;230.07448;385;5;Mitoses < 10.00000 && Uniformity_of_Cell_Size < 5.00000 && Marginal_Adhesion < 10.00000 && Bare_Nuclei < 2.00000 && ﻿Clump_Thickness < 6.50000
+62;230.07448;385;5;Uniformity_of_Cell_Size < 6.00000 && Uniformity_of_Cell_Shape < 3.00000 && Bare_Nuclei < 10.00000 && Bare_Nuclei < 5.00000 && ﻿Clump_Thickness < 6.50000
+63;230.07448;385;5;Uniformity_of_Cell_Shape < 3.00000 && Bland_Chromatin < 7.00000 && Bland_Chromatin < 5.00000 && Bland_Chromatin < 4.00000 && ﻿Clump_Thickness < 7.50000
+64;230.07448;385;5;Uniformity_of_Cell_Shape < 6.00000 && Single_Epithelial_Cell_Size < 10.00000 && Marginal_Adhesion < 10.00000 && Bare_Nuclei < 2.00000 && Normal_Nucleoli < 9.00000
+65;229.99642;407;5;Uniformity_of_Cell_Size < 6.00000 && Uniformity_of_Cell_Size < 3.00000 && Bare_Nuclei < 10.00000 && Bare_Nuclei < 5.50000 && ﻿Clump_Thickness < 8.00000
+66;229.91895;188;3;Uniformity_of_Cell_Size > 1.00000 && Single_Epithelial_Cell_Size > 2.00000 && Bare_Nuclei > 3.00000
+67;229.89057;370;5;Uniformity_of_Cell_Shape < 10.00000 && Marginal_Adhesion < 4.00000 && Bare_Nuclei < 2.00000 && Normal_Nucleoli < 6.00000 && Normal_Nucleoli < 3.00000
+68;229.45687;384;5;Uniformity_of_Cell_Size < 6.00000 && Single_Epithelial_Cell_Size < 10.00000 && Marginal_Adhesion < 10.00000 && Bare_Nuclei < 2.00000 && ﻿Clump_Thickness < 7.00000
+69;229.45687;384;5;Uniformity_of_Cell_Shape < 6.00000 && Single_Epithelial_Cell_Size < 10.00000 && Marginal_Adhesion < 10.00000 && Bare_Nuclei < 2.00000 && ﻿Clump_Thickness < 8.00000
+70;229.45687;384;5;Marginal_Adhesion < 5.00000 && Bare_Nuclei < 3.00000 && Bare_Nuclei < 2.00000 && Normal_Nucleoli < 10.00000 && ﻿Clump_Thickness < 8.00000
+71;229.38574;406;5;Mitoses < 10.00000 && Uniformity_of_Cell_Shape < 6.00000 && Single_Epithelial_Cell_Size < 9.00000 && Bare_Nuclei < 3.00000 && Normal_Nucleoli < 7.50000
+72;229.26924;369;5;Mitoses < 10.00000 && Uniformity_of_Cell_Size < 10.00000 && Single_Epithelial_Cell_Size < 4.00000 && Bare_Nuclei < 2.00000 && Normal_Nucleoli < 3.00000
+73;229.08133;395;5;Mitoses < 10.00000 && Uniformity_of_Cell_Size < 5.00000 && Uniformity_of_Cell_Shape < 3.00000 && Bare_Nuclei < 10.00000 && ﻿Clump_Thickness < 7.50000
