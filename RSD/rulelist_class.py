@@ -9,7 +9,7 @@ from time import time
 from typing import Literal
 import numpy as np
 
-from RSD.rulelistmodel.prediction import predict_rulelist
+from RSD.rulelistmodel.prediction import predict_rulelist, swkl_subgroup_discovery
 from RSD.search.iterative_rule_search import _fit_rulelist
 
 from RSD.util.bitset_operations import bitset2indexes
@@ -174,4 +174,19 @@ class MDLRuleList():
         self : object
         """
         y_hat = predict_rulelist(X, self._rulelist)
+        return y_hat
+
+    def swkl_generalise(self,X,Y):
+        """ Compute the Sum of weighted Kullback-Leibler Divergences (SWKL) for a test set.
+        ----------
+        X : a numpy array or pandas dataframe with the variables in the same
+            position (column number) as given in "fit" function.
+        Y:  a numpy array or pandas dataframe with the variables in the same
+            position (column number) as given in "fit" function.
+
+        Returns the SWKL measure for X,Y, given a fitted rulelist.
+        -------
+        self : object
+        """
+        y_hat = swkl_subgroup_discovery(X, Y, self._rulelist)
         return y_hat
