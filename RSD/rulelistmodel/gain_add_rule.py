@@ -38,6 +38,7 @@ def compute_delta_model(rulelist, new_candidate):
 def compute_delta_score(rulelist, new_candidate, new_subgroup_statistics, new_default_rule_statistics):
     delta_data = compute_delta_data(rulelist, new_subgroup_statistics, new_default_rule_statistics)
     delta_model = compute_delta_model(rulelist, new_candidate)
+    #delta_model = 0
     usage = new_subgroup_statistics.usage
     delta_score = (delta_data+delta_model) / (usage**rulelist.alpha_gain)
     return delta_score, delta_data, delta_model

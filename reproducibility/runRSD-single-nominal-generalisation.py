@@ -11,6 +11,9 @@ from RSD.util.results2folder import attach_results, print2folder, makefolder_nam
 directory = "data/single-nominal/"
 folder2save_name = "RSD-nominal/RSD-single-nominal-generalisation"
 list_datasets = [file.replace(".csv", "") for file in os.listdir(directory)]
+list_datasets = ["sonar","haberman","breastCancer","australian","tictactoe","german",\
+                 "chess","mushrooms","magic","adult","iris","balance","CMC",\
+                 "page-blocks","nursery","automobile","glass","dermatology","kr-vs-k","abalone"]
 
 task_name = "discovery"
 target_type = "categorical"
@@ -19,7 +22,7 @@ delim = ","
 results = ""
 for datasetname in list_datasets:
     # load data
-    datasetname = "iris"
+    print(f"{datasetname} dataset")
     filename =  "./data/single-nominal/"+datasetname+".csv"
     df = pd.read_csv(filename,delimiter=delim)
     X = df.iloc[:,:-1]
@@ -35,9 +38,20 @@ for datasetname in list_datasets:
     measures = nominal_discovery_measures(model._rulelist,X_train,Y_train)
     measures["runtime"] = model.runtime
     measures["nsamples_train"] = X.shape[0]
+    measures["swkl_train_norm"] = measures["wkl_sum"]/measures["nsamples_train"]
 
-    #add more measures on generalisation
-    swkl_test = model.swkl_generalise(X_test, Y_test)
+    # add more measures on generalisation
+    loss_train, loss_train_norm = model.swkl_generalise(X_train, Y_train)
+    measures["loss_train"] = loss_train
+    measures["loss_train_norm"] = loss_train_norm
+
+
+    loss_test, loss_test_norm = model.swkl_generalise(X_test, Y_test)
+
+    measures["loss_test"] = loss_test
+    measures["loss_test_norm"] = loss_test_norm
+    print(f"swkl train norm: {loss_train_norm}")
+    print(f"swkl test norm: {loss_test_norm}")
 
     results = attach_results(measures, results, datasetname)
 print2folder(measures, results, folder2save_name)

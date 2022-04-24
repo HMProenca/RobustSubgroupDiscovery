@@ -188,5 +188,5 @@ class MDLRuleList():
         -------
         self : object
         """
-        y_hat = swkl_subgroup_discovery(X, Y, self._rulelist)
-        return y_hat
+        swkl, swkl_norm = swkl_subgroup_discovery(X, Y, self._rulelist)
+        return swkl, swkl_norm

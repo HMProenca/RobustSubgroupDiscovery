@@ -15,9 +15,9 @@ List of algorithms:
 
 # univariate nominal target
 from otheralgorithms.runGenericSSD import runOtherSSDalgorithms
-#exec(open("./reproducibility/runRSD-single-nominal-generalisation.py").read()) # RSD experiments
+exec(open("./reproducibility/runRSD-single-nominal-generalisation.py").read()) # RSD experiments
 
 #########################################################################
 # univariate numeric target
-exec(open("./reproducibility/runRSD-single-numeric-generalisation.py").read()) # univariate numeric target
+#exec(open("./reproducibility/runRSD-single-numeric-generalisation.py").read()) # univariate numeric target
 

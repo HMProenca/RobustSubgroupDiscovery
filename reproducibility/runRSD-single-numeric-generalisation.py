@@ -13,6 +13,7 @@ list_datasets = [file.replace(".csv", "") for file in os.listdir(directory)]
 list_datasets = ["baseball","autoMPG8","dee","ele-1","forestFires","concrete",\
                 "treasury","wizmir","abalone","puma32h","ailerons","elevators",\
                 "bikesharing","california","house"]
+
 task_name = "discovery"
 target_type = "gaussian"
 delim = ","
@@ -35,9 +36,21 @@ for datasetname in list_datasets:
     measures = numeric_discovery_measures(model._rulelist,X_train,Y_train)
     measures["runtime"] = model.runtime
     measures["nsamples_train"] = X.shape[0]
+    measures["swkl_train_norm"] = measures["wkl_sum"] / measures["nsamples_train"]
 
-    #add more measures on generalisation
 
+    # add more measures on generalisation
+    loss_train, loss_train_norm = model.swkl_generalise(X_train, Y_train)
+    measures["loss_train"] = loss_train
+    measures["loss_train_norm"] = loss_train_norm
+
+
+    loss_test, loss_test_norm = model.swkl_generalise(X_test, Y_test)
+
+    measures["loss_test"] = loss_test
+    measures["loss_test_norm"] = loss_test_norm
+    print(f"swkl train norm: {loss_train_norm}")
+    print(f"swkl test norm: {loss_test_norm}")
 
     results = attach_results(measures, results, datasetname)
 print2folder(measures, results, folder2save_name)
